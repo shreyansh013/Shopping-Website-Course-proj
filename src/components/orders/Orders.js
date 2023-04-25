@@ -1,8 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../../context/GlobalState";
 
 function Orders() {
   const { orders } = useContext(GlobalContext);
+  useEffect(() => {
+    document.title = "ShopCrow-Orders";
+  }, []);
   return (
     <div className="cart-list">
       {orders.map((order) => (

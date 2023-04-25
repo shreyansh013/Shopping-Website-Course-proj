@@ -1,18 +1,29 @@
-.footer {
-    background-color: grey;
-    border-top:2px solid black;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    color: white;
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.contact{
-    font-size: 30px;
-    margin-left: 50px;
-    text-align: left;
+
+.key-note h6 {
+  margin-top: -1px;
 }
-.cont{
-    
-    margin-left: 60px;
-    text-align: left;
+
+.site-name h2 {
+  border-bottom: 2px solid purple;
+  border-top: 2px solid purple;
+  color: purple;
+}
+
+.site-name h6 {
+  margin-top: -10px;
+}
+
+.site-name h2:hover {
+  transform: scale(1.1);
+  transition: 0.07s;
+}
+
+.socialMedia-links h5 a:hover {
+  border-bottom: 1px solid purple;
+  color: purple;
 }

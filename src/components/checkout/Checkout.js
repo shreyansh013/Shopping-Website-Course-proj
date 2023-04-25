@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { GlobalContext } from "../../context/GlobalState";
 import "./Checkout.css";
@@ -23,6 +23,9 @@ const Checkout = () => {
     clearCart();
     setIsOrdered(true);
   };
+  useEffect(() => {
+    document.title = "ShopCrow-Checkout";
+  }, []);
   return (
     <div className="checkout-container">
       {isOrdered ? (

@@ -11,10 +11,15 @@ const Navbar = () => {
         <h2>ShopCrow</h2>
       </Link>
       <ul className="navbar-ul">
-        <li>Womens</li>
-        <li>Mens</li>
-        <li>Clothing</li>
-        <li>Brands</li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/brands">
+          <li>Brands</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact Us</li>
+        </Link>
         <Link to="/cart">
           <li>
             &#128722;{" "}

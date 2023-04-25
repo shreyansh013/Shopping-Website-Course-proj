@@ -1,0 +1,70 @@
+.contact-page {
+  height: 100vh;
+}
+
+.main {
+  max-width: 80%;
+}
+
+.main h2 {
+  text-transform: uppercase;
+  width: fit-content;
+  border-bottom: 2px solid black;
+  margin: 40px;
+}
+
+.form {
+  padding: 50px;
+  width: 70%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.form form {
+  width: 70%;
+}
+
+.form input {
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.form textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.section {
+  margin: 30px 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-heading {
+  width: full;
+}
+
+.section h2 {
+  text-transform: uppercase;
+  width: fit-content;
+  border-bottom: 2px solid black;
+  margin: 30px;
+  text-align: center;
+}
+
+.connects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mail-link a:hover {
+  color: purple;
+}
+
+.socialmedia-connect a:hover {
+  color: purple;
+}

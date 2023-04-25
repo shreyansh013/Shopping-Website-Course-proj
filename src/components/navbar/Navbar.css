@@ -1,9 +1,13 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 0 30px;
   cursor: pointer;
-  background-color: antiquewhite;
+}
+
+.navbar h2 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .navbar-ul {
@@ -15,13 +19,20 @@
   float: left;
 }
 
+.navbar-ul li:hover {
+  transform: scale(1.05);
+  border-bottom: 1px solid black;
+}
+
 .nav-btn {
   margin: 8px;
   background-color: rgb(255 101 101);
   font-family: inherit;
   border: 0px;
+  border-radius: 15px;
   font-size: 14px;
-  height: 70%;
-  padding: 8px 10px;
+  /* height: 70%; */
+  padding: 5px 10px;
   cursor: pointer;
+  text-transform: uppercase;
 }

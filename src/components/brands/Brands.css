@@ -1,0 +1,17 @@
+.brands {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands h1 {
+  text-transform: uppercase;
+}
+
+.link-back:hover {
+  color: purple;
+  border-bottom: 2px solid purple;
+  transition: 0.05s;
+}

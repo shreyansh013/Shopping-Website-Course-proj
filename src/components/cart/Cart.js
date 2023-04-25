@@ -1,10 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { GlobalContext } from "../../context/GlobalState";
 import "./Cart.css";
 
 function Cart() {
   const { cart } = useContext(GlobalContext);
+
+  useEffect(() => {
+    document.title = "ShopCrow-Cart";
+  }, []);
 
   return (
     <div className="cart-container">
