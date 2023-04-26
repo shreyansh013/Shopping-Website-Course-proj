@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../../context/GlobalState";
+import "./Orders.css";
 
 function Orders() {
   const { orders } = useContext(GlobalContext);

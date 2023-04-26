@@ -16,8 +16,8 @@ const Checkout = () => {
       buyerId: 1,
       items: [...cart],
       price: total,
-      address: "7 Rusk Court",
-      deliveryDate: "11/28/2022",
+      address: "JIIT, Sec-62, NOIDA",
+      deliveryDate: "28/04/23",
       isDelivered: false,
     });
     clearCart();

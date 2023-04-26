@@ -11,8 +11,8 @@ const Contact = () => {
         <h2>Write to our Team!</h2>
         <div className="form">
           <form>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="EMail" required />
+            <input type="text" placeholder="Enter your Name" required />
+            <input type="email" placeholder="Enter your EMail" required />
             <textarea
               placeholder="Write your Queries/Thoughts..."
               rows={"10"}

@@ -14,13 +14,13 @@
   color: purple;
 }
 
-.site-name h6 {
-  margin-top: -10px;
-}
-
 .site-name h2:hover {
   transform: scale(1.1);
   transition: 0.07s;
+}
+
+.site-name h6 {
+  margin-top: -10px;
 }
 
 .socialMedia-links h5 a:hover {

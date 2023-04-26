@@ -7,7 +7,7 @@ const footer = () => {
     <div className="footer-main">
       <div className="key-note">
         <h4>
-          Love our Site? <br />{" "}
+          Love our Site? <br />
           <h6>
             <Link to={"/contact"}>Write to our Developer!</Link>
           </h6>
@@ -17,7 +17,7 @@ const footer = () => {
         <h2>
           <Link to={"/"}>ShopCrow.Inc</Link>
         </h2>
-        <h6>All rights reserved, 2023</h6>
+        <h6>All rights reserved(B2-JIIT), 2023</h6>
       </div>
       <div className="socialMedia-links">
         <h5>

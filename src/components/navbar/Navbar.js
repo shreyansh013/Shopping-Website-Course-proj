@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
         <Link to="/cart">
           <li>
-            &#128722;{" "}
+            &#128722;
             <span className="card-count" style={{ color: "red" }}>
               ({cart.length})
             </span>

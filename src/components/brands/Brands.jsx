@@ -13,7 +13,7 @@ const Brands = () => {
       <h1>We are coming soon with your favourite brands!!</h1>
       <h3>Stay Connected!</h3>
       <h4>
-        Back to Unbranded Mall?{" "}
+        Back to Unbranded Mall?
         <Link to={"/"} className="link-back">
           Click Here
         </Link>
