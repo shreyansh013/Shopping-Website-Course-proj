@@ -12,7 +12,6 @@ function ItemList({ items }) {
             name={item.name}
             rating={item.rating}
             price={item.price * 50}
-            saleDiscount={item.saleDiscount}
             image={item.image}
             brand={item.brand}
           />
